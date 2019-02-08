@@ -1,0 +1,29 @@
+{
+  "name": "alisniff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Omid Seyfan <osayfun>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1",
+    "persianjs": "^0.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
