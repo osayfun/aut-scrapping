@@ -22,6 +22,10 @@ var userSchema = Schema({
   usedQuota: {
     type: String,
     required: false,
+  },
+  date: {
+    type: Date,
+    default: Date.now,
   }
 });
 
